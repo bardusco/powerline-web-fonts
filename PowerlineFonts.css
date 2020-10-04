@@ -103,9 +103,34 @@
 }
 
 @font-face {
-    font-family: 'MesloLGS for Powerline';
-    src: local('meslolgs_nf_regular-webfont.woff2'),
-         url(fonts/meslolgs_nf_regular-webfont.woff2) format('woff2');
+    font-family: 'MesloLGS NF for Powerline';
+    src: local('Meslo LG S NF Regular'), local('MesloLGSNer-Regular'),
+        url('fonts/meslo/MesloLGSNer-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'MesloLGS NF for Powerline';
+    src: local('Meslo LG S NF Bold Italic'), local('MesloLGSNerd-BoldItalic'),
+        url('fonst/meslo/MesloLGSNerd-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MesloLGS NF for Powerline';
+    src: local('Meslo LG S NF Italic'), local('MesloLGSNerd-Italic'),
+        url('fonst/meslo/MesloLGSNerd-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MesloLGS NF for Powerline';
+    src: local('Meslo LG S NF Bold'), local('MesloLGSNerdFo-Bold'),
+        url('fonst/meslo/MesloLGSNerdFo-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
